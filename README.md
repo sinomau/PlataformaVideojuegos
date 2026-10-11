@@ -1,2 +1,1 @@
 # PlataformaVideojuegos
-# PlataformaVideojuegos
