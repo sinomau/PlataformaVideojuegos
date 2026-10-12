@@ -36,12 +36,8 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="menu.cpp" />
 		<Unit filename="menu.h" />
-<<<<<<< Updated upstream
 		<Unit filename="utilidades.cpp" />
 		<Unit filename="utilidades.h" />
-=======
-		<Unit filename="validaciones.cpp" />
->>>>>>> Stashed changes
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
