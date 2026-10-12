@@ -14,7 +14,7 @@ Menu::Menu() {
 void Menu::menuPrincipal() {
     do {
         limpiarPantalla();
-        cout << "\n=== MENU PRINCIPAL ===" << endl;
+        cout << "\n=== MENU PRINCIPAL VIDEOJUEGOS===" << endl;
         cout << "1. Juegos" << endl;
         cout << "2. Usuarios" << endl;
         cout << "3. Desarrolladores" << endl;
