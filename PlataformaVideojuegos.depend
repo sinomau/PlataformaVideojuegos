@@ -5,11 +5,12 @@
 
 1791683695 c:\users\mauro\documents\plataformavideojuegos\plataformavideojuegos\menu.h
 
-1791773727 source:c:\users\mauro\documents\plataformavideojuegos\plataformavideojuegos\menu.cpp
+1791821972 source:c:\users\mauro\documents\plataformavideojuegos\plataformavideojuegos\menu.cpp
 	<iostream>
 	"menu.h"
+	"utilidades.h"
 
-1791773395 source:c:\users\mauro\documents\plataformavideojuegos\plataformavideojuegos\validaciones.cpp
+1791773788 source:c:\users\mauro\documents\plataformavideojuegos\plataformavideojuegos\validaciones.cpp
 	<iostream>
 	<limits>
 
@@ -26,4 +27,11 @@
 1791819755 source:/home/mauro/Documentos/Proyecto Facu/PlataformaVideojuegos/validaciones.cpp
 	<iostream>
 	<limits>
+
+1791821972 c:\users\mauro\documents\plataformavideojuegos\plataformavideojuegos\utilidades.h
+
+1791821972 source:c:\users\mauro\documents\plataformavideojuegos\plataformavideojuegos\utilidades.cpp
+	<iostream>
+	<limits>
+	<cstdlib>
 
