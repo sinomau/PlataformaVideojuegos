@@ -7,12 +7,15 @@ using namespace std;
 
 
 
-Menu::Menu() {
+Menu::Menu()
+{
     opcion = 0;
 }
 
-void Menu::menuPrincipal() {
-    do {
+void Menu::menuPrincipal()
+{
+    do
+    {
         limpiarPantalla();
         cout << "\n=== MENU PRINCIPAL VIDEOJUEGOS===" << endl;
         cout << "1. Juegos" << endl;
@@ -24,7 +27,8 @@ void Menu::menuPrincipal() {
         cout << "Opcion: ";
         opcion = validarOpcion();
 
-        switch (opcion) {
+        switch (opcion)
+        {
         case 1:
             menuJuegos();
             break;
@@ -49,15 +53,19 @@ void Menu::menuPrincipal() {
 
         }
 
-    } while (opcion != 0);
+    }
+    while (opcion != 0);
 }
 
 
-void Menu::menuJuegos() {
+void Menu::menuJuegos()
+{
     int opcionJuegos;
 
-    do {
+    do
+    {
         limpiarPantalla();
+        cout << "\n=== PLATAFORMA JUEGOS VIRTUALES ===" << endl;
         cout << "\n=== MENU JUEGOS ===" << endl;
         cout << "1. Agregar juego" << endl;
         cout << "2. Listar juegos" << endl;
@@ -68,7 +76,8 @@ void Menu::menuJuegos() {
         cout << "Opcion: ";
         opcionJuegos = validarOpcion();
 
-        switch (opcionJuegos) {
+        switch (opcionJuegos)
+        {
         case 1:
             // Agregar juego
             break;
@@ -90,7 +99,8 @@ void Menu::menuJuegos() {
             cout << "Opcion incorrecta." << endl;
         }
 
-    } while (opcionJuegos != 0);
+    }
+    while (opcionJuegos != 0);
 }
 
 void Menu::menuUsuarios()
@@ -147,7 +157,8 @@ void Menu::menuUsuarios()
             break;
         }
 
-    } while (opcionUsuarios != 0);
+    }
+    while (opcionUsuarios != 0);
 }
 
 void Menu::menuDesarrolladores()
@@ -204,7 +215,8 @@ void Menu::menuDesarrolladores()
             break;
         }
 
-    } while (opcionDesarrolladores != 0);
+    }
+    while (opcionDesarrolladores != 0);
 }
 
 void Menu::menuCategorias()
@@ -255,7 +267,8 @@ void Menu::menuCategorias()
             break;
         }
 
-    } while (opcionCategorias != 0);
+    }
+    while (opcionCategorias != 0);
 }
 
 void Menu::menuCompras()
@@ -302,7 +315,8 @@ void Menu::menuCompras()
             break;
         }
 
-    } while (opcionCompras != 0);
+    }
+    while (opcionCompras != 0);
 }
 
 void Menu::menuResenias()
@@ -353,5 +367,6 @@ void Menu::menuResenias()
             break;
         }
 
-    } while (opcionResenias != 0);
+    }
+    while (opcionResenias != 0);
 }
