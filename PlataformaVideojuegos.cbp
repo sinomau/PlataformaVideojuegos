@@ -32,9 +32,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename=".gitignore" />
 		<Unit filename="main.cpp" />
 		<Unit filename="menu.cpp" />
 		<Unit filename="menu.h" />
+		<Unit filename="utilidades.cpp" />
+		<Unit filename="utilidades.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

@@ -1,0 +1,20 @@
+
+Ejecutables
+
+.exe .out
+
+Archivos compilados
+
+.o .obj
+
+Carpetas generadas
+
+bin/ obj/
+
+Archivos de Code::Blocks
+
+.depend .layout
+
+Archivos del sistema operativo
+
+.DS_Store Thumbs.db

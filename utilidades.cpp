@@ -1,5 +1,6 @@
 #include <iostream>
 #include <limits>
+#include <cstdlib>
 
 using namespace std;
 
@@ -17,4 +18,13 @@ int validarOpcion()
     }
 
     return opcion;
+}
+
+
+void limpiarPantalla() {
+    #ifdef _WIN32
+        system("cls");   // Windows
+    #else
+        system("clear"); // Linux y macOS
+    #endif
 }

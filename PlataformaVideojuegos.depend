@@ -13,3 +13,17 @@
 	<iostream>
 	<limits>
 
+1791819755 source:/home/mauro/Documentos/Proyecto Facu/PlataformaVideojuegos/main.cpp
+	<iostream>
+	"menu.h"
+
+1791819755 /home/mauro/Documentos/Proyecto Facu/PlataformaVideojuegos/menu.h
+
+1791819899 source:/home/mauro/Documentos/Proyecto Facu/PlataformaVideojuegos/menu.cpp
+	<iostream>
+	"menu.h"
+
+1791819755 source:/home/mauro/Documentos/Proyecto Facu/PlataformaVideojuegos/validaciones.cpp
+	<iostream>
+	<limits>
+

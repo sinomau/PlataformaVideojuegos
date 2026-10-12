@@ -1,9 +1,11 @@
 #include <iostream>
 #include "menu.h"
+#include "utilidades.h"
+
 
 using namespace std;
 
-int validarOpcion();
+
 
 Menu::Menu() {
     opcion = 0;
@@ -11,7 +13,7 @@ Menu::Menu() {
 
 void Menu::menuPrincipal() {
     do {
-        system("cls");
+        limpiarPantalla();
         cout << "\n=== MENU PRINCIPAL ===" << endl;
         cout << "1. Juegos" << endl;
         cout << "2. Usuarios" << endl;
@@ -55,7 +57,7 @@ void Menu::menuJuegos() {
     int opcionJuegos;
 
     do {
-        system("cls");
+        limpiarPantalla();
         cout << "\n=== MENU JUEGOS ===" << endl;
         cout << "1. Agregar juego" << endl;
         cout << "2. Listar juegos" << endl;
@@ -97,7 +99,7 @@ void Menu::menuUsuarios()
 
     do
     {
-        system("cls");
+        limpiarPantalla();
 
         cout << "\n=== MENU USUARIOS ===" << endl;
         cout << "1. Registrar usuario" << endl;
@@ -154,7 +156,7 @@ void Menu::menuDesarrolladores()
 
     do
     {
-        system("cls");
+        limpiarPantalla();
 
         cout << "\n=== MENU DESARROLLADORES ===" << endl;
         cout << "1. Registrar desarrollador" << endl;
@@ -211,7 +213,7 @@ void Menu::menuCategorias()
 
     do
     {
-        system("cls");
+        limpiarPantalla();
 
         cout << "\n=== MENU CATEGORIAS ===" << endl;
         cout << "1. Registrar categoria" << endl;
@@ -262,7 +264,7 @@ void Menu::menuCompras()
 
     do
     {
-        system("cls");
+        limpiarPantalla();
 
         cout << "\n=== MENU COMPRAS ===" << endl;
         cout << "1. Registrar compra" << endl;
@@ -309,7 +311,7 @@ void Menu::menuResenias()
 
     do
     {
-        system("cls");
+        limpiarPantalla();
 
         cout << "\n=== MENU RESENIAS ===" << endl;
         cout << "1. Registrar resenia" << endl;
