@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1791683128 source:c:\users\mauro\documents\plataformavideojuegos\plataformavideojuegos\main.cpp
+	<iostream>
+	"menu.h"
+
+1791683695 c:\users\mauro\documents\plataformavideojuegos\plataformavideojuegos\menu.h
+
+1791773727 source:c:\users\mauro\documents\plataformavideojuegos\plataformavideojuegos\menu.cpp
+	<iostream>
+	"menu.h"
+
+1791773395 source:c:\users\mauro\documents\plataformavideojuegos\plataformavideojuegos\validaciones.cpp
+	<iostream>
+	<limits>
+
